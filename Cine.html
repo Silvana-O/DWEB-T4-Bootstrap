@@ -51,14 +51,14 @@
 
         <section class="container mt-5">
 
-            <h2 class="text-center text- text-white bg-dark">
+            <h2 class="text-center text">
                 Próximos estrenos
             </h2>
 
             <!-- AGREGAR AQUÍ EL CARRUSEL -->
 
             <div id="carouselPeliculas"
-                class="carousel slide"
+                class="carousel slide bg-dark"
                 data-bs-ride="carousel"
                 data-bs-interval="4000">
 
@@ -68,7 +68,7 @@
                     <!-- Película 1 -->
                     <div class="carousel-item active">
 
-                        <div class="text-center">
+                        <div class="text-center text-white">
 
                             <img
                                 src="imagenes/LosJuegosDelHambreAC.jpg"
@@ -96,7 +96,7 @@
                     <!-- Película 2 -->
                     <div class="carousel-item">
 
-                        <div class="text-center">
+                        <div class="text-center text-white">
 
                             <img
                                 src="imagenes/La noche del demonio.jpg"
@@ -124,7 +124,7 @@
                     <!-- Película 3 -->
                     <div class="carousel-item">
 
-                        <div class="text-center">
+                        <div class="text-center text-white">
 
                             <img
                                 src="imagenes/CoyoteVsAcme.jpg"
@@ -149,6 +149,30 @@
                     </div>
 
                 </div>
+
+                <!-- Control anterior -->
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselPeliculas"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+
+                </button>
+
+                <!-- Control siguiente -->
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselPeliculas"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Siguiente</span>
+
+                </button>
 
                 <!-- Indicadores -->
                 <div class="carousel-indicators position-static mb-0 mt-3 bg-dark">
